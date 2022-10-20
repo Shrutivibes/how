@@ -1,0 +1,24 @@
+#bg{
+    background-color:  #F5F5F5;
+    margin: 10%;
+}
+#b{
+    background-image: url(/Vector\ 1\ \(1\).png);
+    background-size: contain;
+    width: 30%;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    top: 5%;
+}
+#img{
+    background-image: url(/Rectangle\ 5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    text-align: center;
+}
+a :hover{
+  background-color: white;  
+  outline: 10px;
+  box-shadow: 4px 2px 4px 2px rgba(84, 84, 235, 0.251);
+}
