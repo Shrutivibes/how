@@ -1,0 +1,32 @@
+$(document).ready(function() {
+$('#navigation li p#1').hover(
+    function(){
+        $(this).addClass('hover');
+        $('.box img').attr('src', 'image1.jpg');
+    },
+    function(){
+        $(this).removeClass('hover');
+        $('.box img').attr('src', 'default.jpg');
+    }
+);
+$('#navigation li p#2').hover(
+    function(){
+        $(this).addClass('hover');
+        $('.box img').attr('src', 'image2.jpg');
+    },
+    function(){
+        $(this).removeClass('hover');
+        $('.box img').attr('src', 'default.jpg');
+    }
+);
+$('#navigation li p#3').hover(
+    function(){
+        $(this).addClass('hover');
+        $('.box img').attr('src', 'image3.jpg');
+    },
+    function(){
+        $(this).removeClass('hover');
+        $('.box img').attr('src', 'default.jpg');
+    }
+);
+});
